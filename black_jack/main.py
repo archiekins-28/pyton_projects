@@ -13,7 +13,7 @@
 ## The computer is the dealer.
 
 ##################### Hints #####################
-
+from art import logo
 from replit import clear
 import random
 #function to draw a random card
@@ -53,6 +53,7 @@ def calculate_score(cards):
   return sum(cards)
 
 def play_game():
+  print(logo)
   is_game_over=False
   user_cards = []
   computer_cards = []
